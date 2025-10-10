@@ -71,6 +71,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-adsense-account" content="ca-pub-1014042036964348" />
+        <meta name="google-site-verification" content="xoHssXt3pbecMM_vnU50q5z6hlRJ6Vq8oSO0_P4oQ-Q" />
+        <meta name="naver-site-verification" content="c5fa0bd11bb3b4e4fdbbda3a15b05c5ef0a72743" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
