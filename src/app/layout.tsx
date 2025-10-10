@@ -59,6 +59,16 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "xoHssXt3pbecMM_vnU50q5z6hlRJ6Vq8oSO0_P4oQ-Q",
+  },
+  icons: {
+    icon: [
+      {
+        url: '/favicon.svg',
+        type: 'image/svg+xml',
+      }
+    ],
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
   }
 };
 
