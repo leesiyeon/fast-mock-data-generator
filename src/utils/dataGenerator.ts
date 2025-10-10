@@ -14,6 +14,7 @@ export function parseSchema(schemaString: string): Record<string, DataType> | nu
 }
 
 // 데이터 타입에 따라 적절한 가짜 데이터 생성
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function generateValueByType(type: string): any {
   const lowerType = type.toLowerCase();
 
@@ -140,7 +141,9 @@ function generateValueByType(type: string): any {
 }
 
 // 단일 객체 생성
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function generateSingleObject(schema: Record<string, DataType>): Record<string, any> {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const result: Record<string, any> = {};
   
   for (const [key, type] of Object.entries(schema)) {

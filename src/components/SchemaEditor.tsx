@@ -6,7 +6,6 @@ interface SchemaEditorProps {
   schema: string;
   onChange: (schema: string) => void;
   onLoadTemplate: (template: string) => void;
-  onAddField?: (fieldName: string, fieldType: string) => void;
 }
 
 const TEMPLATES = {
@@ -48,7 +47,7 @@ const TEMPLATES = {
 }`
 };
 
-export default function SchemaEditor({ schema, onChange, onLoadTemplate, onAddField }: SchemaEditorProps) {
+export default function SchemaEditor({ schema, onChange, onLoadTemplate }: SchemaEditorProps) {
   const [selectedTemplate, setSelectedTemplate] = useState<string>('');
 
   const handleTemplateChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
