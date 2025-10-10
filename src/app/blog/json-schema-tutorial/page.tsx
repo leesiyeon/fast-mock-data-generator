@@ -43,7 +43,7 @@ export default function BlogPost() {
               JSON Schema is a vocabulary that allows you to annotate and validate JSON documents. It provides a contract for your JSON data, describing the structure, type constraints, and validation rules that your data must follow. Think of it as a blueprint for your JSON data.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              JSON Schema is used for validating API requests and responses, documenting APIs, generating mock data, and ensuring data consistency across systems. It's language-independent, making it perfect for microservices and distributed systems.
+              JSON Schema is used for validating API requests and responses, documenting APIs, generating mock data, and ensuring data consistency across systems. It&apos;s language-independent, making it perfect for microservices and distributed systems.
             </p>
           </div>
 
@@ -65,7 +65,7 @@ export default function BlogPost() {
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Defining Object Schemas</h2>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Objects are the most common structure in JSON. Here's how to define a schema for an object with specific properties:
+              Objects are the most common structure in JSON. Here&apos;s how to define a schema for an object with specific properties:
             </p>
             <div className="bg-gray-100 dark:bg-gray-900 p-4 rounded-lg mb-4 font-mono text-sm overflow-x-auto">
               <pre className="text-gray-800 dark:text-gray-200">{`{
@@ -87,7 +87,7 @@ export default function BlogPost() {
 }`}</pre>
             </div>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              This schema defines an object with three properties. The "required" array specifies which properties must be present. Age is optional, but name and email are required.
+              This schema defines an object with three properties. The &quot;required&quot; array specifies which properties must be present. Age is optional, but name and email are required.
             </p>
           </div>
 
@@ -126,7 +126,7 @@ export default function BlogPost() {
 }`}</pre>
             </div>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Common format values include: "email", "uri", "date-time", "ipv4", "ipv6", and "uuid". These provide built-in validation for common data types.
+              Common format values include: &quot;email&quot;, &quot;uri&quot;, &quot;date-time&quot;, &quot;ipv4&quot;, &quot;ipv6&quot;, and &quot;uuid&quot;. These provide built-in validation for common data types.
             </p>
           </div>
 
@@ -144,7 +144,7 @@ export default function BlogPost() {
 }`}</pre>
             </div>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              This is perfect for validating percentages or prices. Use "exclusiveMinimum" and "exclusiveMaximum" when you need strict inequality.
+              This is perfect for validating percentages or prices. Use &quot;exclusiveMinimum&quot; and &quot;exclusiveMaximum&quot; when you need strict inequality.
             </p>
           </div>
 

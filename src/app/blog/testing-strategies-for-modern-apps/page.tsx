@@ -79,7 +79,7 @@ export default function BlogPost() {
               E2E tests simulate real user interactions, testing your entire application stack from UI to database. They validate that critical user journeys work as expected. Tools like Cypress, Playwright, and Selenium enable automated browser testing.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Keep E2E tests focused on happy paths and critical flows. They're slower and more brittle than other tests, so use them sparingly. Test registration, login, checkout, and other essential user journeys that would cause major issues if broken.
+              Keep E2E tests focused on happy paths and critical flows. They&apos;re slower and more brittle than other tests, so use them sparingly. Test registration, login, checkout, and other essential user journeys that would cause major issues if broken.
             </p>
           </div>
 
@@ -126,7 +126,7 @@ export default function BlogPost() {
           <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-8 text-white mb-8">
             <h2 className="text-2xl font-bold mb-4">Need Mock Data for Testing?</h2>
             <p className="mb-6">
-              Generate realistic test data instantly for all your testing needs. Unit tests, integration tests, or E2E tests—we've got you covered.
+              Generate realistic test data instantly for all your testing needs. Unit tests, integration tests, or E2E tests—we&apos;ve got you covered.
             </p>
             <Link 
               href="/"

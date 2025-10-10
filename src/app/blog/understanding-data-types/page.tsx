@@ -29,7 +29,7 @@ export default function BlogPost() {
             <span className="text-sm text-gray-500 dark:text-gray-400">October 6, 2025</span>
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Understanding Data Types: A Developer's Essential Guide
+            Understanding Data Types: A Developer&apos;s Essential Guide
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400">
             Deep dive into different data types and how to choose the right ones for your mock data generation needs.
@@ -76,7 +76,7 @@ export default function BlogPost() {
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Boolean Types</h2>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Booleans represent true/false states and are fundamental to conditional logic. While simple in concept, boolean fields should be named carefully to make their meaning clear: "isActive" is better than "status," and "hasPermission" is clearer than "access."
+              Booleans represent true/false states and are fundamental to conditional logic. While simple in concept, boolean fields should be named carefully to make their meaning clear: &quot;isActive&quot; is better than &quot;status,&quot; and &quot;hasPermission&quot; is clearer than &quot;access.&quot;
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               When generating mock boolean data, ensure both true and false values are represented in test cases. Some bugs only appear when specific boolean combinations occur, so test various scenarios thoroughly.
@@ -86,7 +86,7 @@ export default function BlogPost() {
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Array and Collection Types</h2>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Arrays and collections hold multiple values of the same or mixed types. They're essential for representing lists, sets, and groups of related items. Mock array data should include empty arrays, single-item arrays, and arrays with multiple items to test different scenarios.
+              Arrays and collections hold multiple values of the same or mixed types. They&apos;re essential for representing lists, sets, and groups of related items. Mock array data should include empty arrays, single-item arrays, and arrays with multiple items to test different scenarios.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               Consider testing with large arrays to ensure your application handles pagination and performance correctly. Also test whether your code properly handles null or undefined array elements if your data model allows them.

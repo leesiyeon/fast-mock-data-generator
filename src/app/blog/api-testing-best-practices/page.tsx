@@ -39,14 +39,14 @@ export default function BlogPost() {
         <div className="prose prose-lg dark:prose-invert max-w-none">
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              API testing is a critical component of modern software development. Unlike UI testing, which can be brittle and slow, API testing provides fast, reliable feedback about your application's core functionality. Whether you're building a REST API, GraphQL endpoint, or microservices architecture, following these best practices will help you create robust, maintainable tests.
+              API testing is a critical component of modern software development. Unlike UI testing, which can be brittle and slow, API testing provides fast, reliable feedback about your application&apos;s core functionality. Whether you&apos;re building a REST API, GraphQL endpoint, or microservices architecture, following these best practices will help you create robust, maintainable tests.
             </p>
           </div>
 
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">1. Use Realistic Mock Data</h2>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              One of the most common mistakes in API testing is using overly simplified test data. While it may be tempting to use easy values like "test@test.com" or "John Doe," this approach can hide bugs that only surface with real-world data variations.
+              One of the most common mistakes in API testing is using overly simplified test data. While it may be tempting to use easy values like &quot;test@test.com&quot; or &quot;John Doe,&quot; this approach can hide bugs that only surface with real-world data variations.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               Instead, generate realistic mock data that includes edge cases: long names, special characters, international addresses, and various date formats. This approach helps ensure your API handles diverse input correctly and your validation logic is robust.
@@ -64,7 +64,7 @@ export default function BlogPost() {
               HTTP status codes communicate the outcome of API requests. Your tests should verify that your API returns appropriate codes for different scenarios: 200 for success, 201 for created resources, 400 for bad requests, 401 for unauthorized access, 404 for not found, and 500 for server errors.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Don't just test the happy path. Create tests for error scenarios to ensure your API provides meaningful status codes that help clients handle failures gracefully. This is especially important for public APIs where you have little control over how clients will use your endpoints.
+              Don&apos;t just test the happy path. Create tests for error scenarios to ensure your API provides meaningful status codes that help clients handle failures gracefully. This is especially important for public APIs where you have little control over how clients will use your endpoints.
             </p>
           </div>
 
@@ -81,17 +81,17 @@ export default function BlogPost() {
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">4. Test Authentication and Authorization</h2>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Security testing is non-negotiable. Verify that protected endpoints reject unauthorized requests and that authentication tokens work correctly. Test different permission levels to ensure users can only access resources they're authorized for.
+              Security testing is non-negotiable. Verify that protected endpoints reject unauthorized requests and that authentication tokens work correctly. Test different permission levels to ensure users can only access resources they&apos;re authorized for.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Common scenarios to test include expired tokens, invalid credentials, missing authentication headers, and permission boundaries. Don't forget to test that sensitive data is properly masked or excluded from responses for users without appropriate permissions.
+              Common scenarios to test include expired tokens, invalid credentials, missing authentication headers, and permission boundaries. Don&apos;t forget to test that sensitive data is properly masked or excluded from responses for users without appropriate permissions.
             </p>
           </div>
 
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">5. Implement Proper Test Data Management</h2>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Test data management is often overlooked but critical for reliable testing. Create fresh test data for each test run to avoid dependencies between tests. This isolation prevents flaky tests where one test's side effects impact another.
+              Test data management is often overlooked but critical for reliable testing. Create fresh test data for each test run to avoid dependencies between tests. This isolation prevents flaky tests where one test&apos;s side effects impact another.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               Use database transactions or cleanup scripts to restore test environments to known states. Consider using test databases that are separate from development environments to prevent accidental data corruption.
