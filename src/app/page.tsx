@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { Toaster } from 'react-hot-toast';
 import toast from 'react-hot-toast';
 import Header from '@/components/Header';
@@ -70,7 +71,7 @@ export default function Home() {
       // Update schema with pretty print
       setSchema(JSON.stringify(currentSchema, null, 2));
       toast.success(`Added "${fieldName}" field!`, { duration: 2000 });
-    } catch (error) {
+    } catch {
       toast.error('Invalid schema format. Please check your JSON.', { duration: 3000 });
     }
   };
@@ -155,24 +156,24 @@ export default function Home() {
               <h3 className="font-bold text-gray-900 dark:text-white mb-3">Quick Links</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="/" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                  <Link href="/" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/blog" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                  <Link href="/blog" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/about" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                  <Link href="/about" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/contact" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                  <Link href="/contact" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -182,14 +183,14 @@ export default function Home() {
               <h3 className="font-bold text-gray-900 dark:text-white mb-3">Legal</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="/privacy" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                  <Link href="/privacy" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/terms" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                  <Link href="/terms" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                     Terms of Service
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

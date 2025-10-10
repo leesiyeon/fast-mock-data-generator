@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -170,12 +171,12 @@ export default function PrivacyPolicy() {
         </div>
 
         <div className="mt-8 text-center">
-          <a 
+          <Link 
             href="/" 
             className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
           >
             ← Back to Home
-          </a>
+          </Link>
         </div>
       </div>
     </div>
