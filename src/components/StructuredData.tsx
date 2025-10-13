@@ -4,7 +4,7 @@ export default function StructuredData() {
     "@type": "WebApplication",
     "name": "Fast Mock Data Generator",
     "description": "Free online mock data generator for developers. Generate realistic test data instantly in your browser.",
-    "url": "https://fastmockdata.com",
+    "url": "https://fast-mock-data-generator.vercel.app",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "Any",
     "offers": {
@@ -28,7 +28,7 @@ export default function StructuredData() {
     "provider": {
       "@type": "Organization",
       "name": "Fast Mock Data Generator",
-      "url": "https://fastmockdata.com"
+      "url": "https://fast-mock-data-generator.vercel.app"
     }
   };
 
@@ -39,5 +39,7 @@ export default function StructuredData() {
     />
   );
 }
+
+
 
 

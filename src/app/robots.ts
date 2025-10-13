@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://fastmockdata.com'; // 실제 도메인으로 변경
+  const baseUrl = 'https://fast-mock-data-generator.vercel.app';
 
   return {
     rules: [
@@ -14,5 +14,7 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: `${baseUrl}/sitemap.xml`,
   };
 }
+
+
 
 

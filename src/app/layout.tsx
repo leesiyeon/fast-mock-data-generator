@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Fast Mock Data Generator" }],
   creator: "Fast Mock Data Generator",
   publisher: "Fast Mock Data Generator",
-  metadataBase: new URL('https://fastmockdata.com'), // 나중에 실제 도메인으로 변경
+  metadataBase: new URL('https://fast-mock-data-generator.vercel.app'),
   alternates: {
     canonical: "/"
   },

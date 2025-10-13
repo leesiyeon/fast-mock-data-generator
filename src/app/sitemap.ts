@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://fastmockdata.com'; // 실제 도메인으로 변경
+  const baseUrl = 'https://fast-mock-data-generator.vercel.app';
 
   return [
     {
@@ -72,5 +72,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 }
+
+
 
 
