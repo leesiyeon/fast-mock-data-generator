@@ -98,6 +98,24 @@ export default function Home() {
       <Header />
       
       <main className="max-w-7xl mx-auto px-4 py-6">
+        {/* SEO-friendly Hero Section */}
+        <div className="text-center mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+            Free Mock Data Generator
+          </h1>
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-6 max-w-3xl mx-auto">
+            Generate realistic test data instantly for your development projects. 
+            Support for 60+ data types including names, emails, dates, addresses, and more. 
+            Perfect for API testing, frontend development, and database seeding.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+            <span className="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full">✓ No Signup Required</span>
+            <span className="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full">✓ 60+ Data Types</span>
+            <span className="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full">✓ JSON Export</span>
+            <span className="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full">✓ Free Forever</span>
+          </div>
+        </div>
+
         {/* Step 1: Build Your Schema */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-4">
           {/* 메인: 스키마 에디터 (70%) */}
@@ -128,6 +146,49 @@ export default function Home() {
         {/* Step 3: View Results */}
         <div className="w-full h-[400px]">
           <DataViewer data={generatedData} />
+        </div>
+
+        {/* SEO Content Section */}
+        <div className="mt-12 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Why Choose Our Mock Data Generator?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">🚀 Lightning Fast</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">
+                Generate thousands of realistic records in milliseconds. No server delays, everything runs in your browser.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">🎯 60+ Data Types</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">
+                Names, emails, phone numbers, addresses, dates, UUIDs, and many more. Perfect for any development scenario.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">🔧 Developer Friendly</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">
+                JSON schema support, custom formats, and easy integration with your existing development workflow.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">🆓 Completely Free</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">
+                No registration required, no usage limits, no hidden costs. Generate as much data as you need.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">🔒 Privacy First</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">
+                All data generation happens locally in your browser. No data is sent to our servers.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">📊 Perfect for Testing</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">
+                Ideal for API testing, frontend development, database seeding, and creating realistic demos.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Bottom Ad Space */}

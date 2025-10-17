@@ -30,22 +30,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "/",
+    url: "https://fast-mock-data-generator.vercel.app",
     title: "Fast Mock Data Generator - Generate Realistic Test Data Instantly",
     description: "Free online mock data generator for developers. Generate realistic test data instantly in your browser.",
     siteName: "Fast Mock Data Generator",
     images: [{
-      url: "/og-image.png", // 나중에 이미지 추가
+      url: "https://fast-mock-data-generator.vercel.app/og-image.png",
       width: 1200,
       height: 630,
-      alt: "Fast Mock Data Generator"
+      alt: "Fast Mock Data Generator - Free Mock Data Generator Tool"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Fast Mock Data Generator",
     description: "Generate realistic test data instantly - Free tool for developers",
-    images: ["/og-image.png"]
+    images: ["https://fast-mock-data-generator.vercel.app/og-image.png"]
   },
   robots: {
     index: true,
