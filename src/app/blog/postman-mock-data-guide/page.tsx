@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Using Mock Data in Postman: Complete API Testing Guide",
+  title: "Using Mock Data in Postman : Complete API Testing Guide",
   description: "Master Postman API testing with mock data. Learn how to create realistic test scenarios, automate workflows, and test edge cases effectively.",
   keywords: ["postman", "api testing", "mock data", "rest api", "api development", "testing automation"],
   openGraph: {
