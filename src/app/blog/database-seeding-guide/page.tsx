@@ -57,7 +57,7 @@ export default function BlogPost() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-2">1. Consistent Development Environments</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Every developer on your team can work with the same baseline data, reducing "works on my machine" issues and
+                  Every developer on your team can work with the same baseline data, reducing &ldquo;works on my machine&rdquo; issues and
                   ensuring consistent behavior across development environments.
                 </p>
               </div>
