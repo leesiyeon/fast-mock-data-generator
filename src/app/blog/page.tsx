@@ -12,6 +12,38 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    slug: 'using-mock-data-in-react',
+    title: 'Using Mock Data in React Applications: Complete Guide',
+    excerpt: 'Learn how to effectively use mock data in React for faster development, better testing, and more reliable applications.',
+    date: 'October 15, 2025',
+    readTime: '12 min read',
+    category: 'Tutorial'
+  },
+  {
+    slug: 'database-seeding-guide',
+    title: 'Database Seeding: The Complete Developer\'s Guide',
+    excerpt: 'Master database seeding for MongoDB, PostgreSQL, MySQL, and more. Learn best practices and automation strategies.',
+    date: 'October 16, 2025',
+    readTime: '15 min read',
+    category: 'Guide'
+  },
+  {
+    slug: 'postman-mock-data-guide',
+    title: 'Using Mock Data in Postman: Complete API Testing Guide',
+    excerpt: 'Master Postman API testing with mock data. Learn how to create realistic test scenarios and automate workflows.',
+    date: 'October 17, 2025',
+    readTime: '10 min read',
+    category: 'Tutorial'
+  },
+  {
+    slug: 'jest-testing-with-mock-data',
+    title: 'Jest Testing with Mock Data: Complete Guide',
+    excerpt: 'Master Jest testing with mock data. Learn mocking strategies, best practices, and write reliable unit tests.',
+    date: 'October 18, 2025',
+    readTime: '11 min read',
+    category: 'Tutorial'
+  },
+  {
     slug: 'complete-guide-to-mock-data',
     title: 'The Complete Guide to Mock Data in Software Development',
     excerpt: 'Learn everything about mock data, why it matters, and how to use it effectively in your development workflow.',

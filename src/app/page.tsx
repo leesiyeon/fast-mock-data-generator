@@ -222,8 +222,23 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/docs" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                    Documentation
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/use-cases" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                    Use Cases
+                  </Link>
+                </li>
+                <li>
                   <Link href="/blog" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                     Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/faq" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                    FAQ
                   </Link>
                 </li>
                 <li>
