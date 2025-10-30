@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Master Postman API testing with mock data. Learn how to create realistic test scenarios, automate workflows, and test edge cases effectively.",
   keywords: ["postman", "api testing", "mock data", "rest api", "api development", "testing automation"],
   openGraph: {
-    title: "Using Mock Data in Postman: Complete API Testing Guide",
+    title: "Using Mock Data in Postman : Complete API Testing Guide",
     description: "Learn how to use mock data effectively in Postman for better API testing",
     type: "article",
     publishedTime: "2025-10-17T00:00:00.000Z",
