@@ -10,6 +10,7 @@ import GenerationSettings from '@/components/GenerationSettings';
 import DataViewer from '@/components/DataViewer';
 import DataTypeReference from '@/components/DataTypeReference';
 import StructuredData from '@/components/StructuredData';
+import FAQ from '@/components/FAQ';
 import { generateMockData } from '@/utils/dataGenerator';
 
 const DEFAULT_SCHEMA = `{
@@ -188,6 +189,56 @@ export default function Home() {
                 Ideal for API testing, frontend development, database seeding, and creating realistic demos.
               </p>
             </div>
+          </div>
+        </div>
+
+        {/* FAQ Section */}
+        <div className="mt-12">
+          <FAQ />
+        </div>
+
+        {/* Blog Posts Section - Internal Links */}
+        <div className="mt-12 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Learn More About Mock Data</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Link href="/blog/complete-guide-to-mock-data" className="group">
+              <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-5 hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
+                <h3 className="font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                  The Complete Guide to Mock Data
+                </h3>
+                <p className="text-sm text-gray-600 dark:text-gray-400">
+                  Learn everything about mock data and how to use it effectively in your development workflow.
+                </p>
+              </div>
+            </Link>
+            <Link href="/blog/api-testing-best-practices" className="group">
+              <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-5 hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
+                <h3 className="font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                  API Testing Best Practices
+                </h3>
+                <p className="text-sm text-gray-600 dark:text-gray-400">
+                  Master API testing with proven strategies and techniques for handling edge cases.
+                </p>
+              </div>
+            </Link>
+            <Link href="/blog/json-schema-tutorial" className="group">
+              <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-5 hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
+                <h3 className="font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                  JSON Schema Tutorial
+                </h3>
+                <p className="text-sm text-gray-600 dark:text-gray-400">
+                  Master JSON Schema with practical examples and advanced techniques.
+                </p>
+              </div>
+            </Link>
+          </div>
+          <div className="mt-6 text-center">
+            <Link
+              href="/blog"
+              className="inline-block text-blue-600 dark:text-blue-400 hover:underline font-semibold"
+            >
+              View All Articles →
+            </Link>
           </div>
         </div>
 

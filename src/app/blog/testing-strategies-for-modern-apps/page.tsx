@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
+import ArticleStructuredData from '@/components/ArticleStructuredData';
 
 export const metadata: Metadata = {
   title: "Testing Strategies for Modern Web Applications",
@@ -15,7 +16,16 @@ export const metadata: Metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <>
+      <ArticleStructuredData
+        title="Testing Strategies for Modern Web Applications"
+        description="Explore effective testing strategies including unit tests, integration tests, and E2E testing. Improve your application quality and reduce bugs in production."
+        publishedTime="2025-10-04T00:00:00.000Z"
+        modifiedTime="2025-10-04T00:00:00.000Z"
+        url="https://fast-mock-data-generator.vercel.app/blog/testing-strategies-for-modern-apps"
+        keywords={["testing strategy", "unit testing", "integration testing", "E2E testing", "test automation", "quality assurance"]}
+      />
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <article className="max-w-4xl mx-auto px-4 py-12">
         <header className="mb-8">
           <Link href="/blog" className="text-blue-600 dark:text-blue-400 hover:underline mb-4 inline-block">
@@ -138,6 +148,7 @@ export default function BlogPost() {
         </div>
       </article>
     </div>
+    </>
   );
 }
 

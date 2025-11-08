@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
+import ArticleStructuredData from '@/components/ArticleStructuredData';
 
 export const metadata: Metadata = {
   title: "10 API Testing Best Practices Every Developer Should Know",
@@ -15,7 +16,16 @@ export const metadata: Metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <>
+      <ArticleStructuredData
+        title="10 API Testing Best Practices Every Developer Should Know"
+        description="Master API testing with proven strategies and techniques. Learn how to test APIs effectively, handle edge cases, and automate your testing workflow."
+        publishedTime="2025-10-07T00:00:00.000Z"
+        modifiedTime="2025-10-07T00:00:00.000Z"
+        url="https://fast-mock-data-generator.vercel.app/blog/api-testing-best-practices"
+        keywords={["API testing", "best practices", "test automation", "REST API", "integration testing"]}
+      />
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <article className="max-w-4xl mx-auto px-4 py-12">
         <header className="mb-8">
           <Link href="/blog" className="text-blue-600 dark:text-blue-400 hover:underline mb-4 inline-block">
@@ -163,6 +173,7 @@ export default function BlogPost() {
         </div>
       </article>
     </div>
+    </>
   );
 }
 

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
+import ArticleStructuredData from '@/components/ArticleStructuredData';
 
 export const metadata: Metadata = {
   title: "Understanding Data Types: A Developer's Essential Guide",
@@ -15,7 +16,16 @@ export const metadata: Metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <>
+      <ArticleStructuredData
+        title="Understanding Data Types: A Developer's Essential Guide"
+        description="Deep dive into different data types and how to choose the right ones for your mock data generation needs. Complete guide to strings, numbers, dates, and more."
+        publishedTime="2025-10-06T00:00:00.000Z"
+        modifiedTime="2025-10-06T00:00:00.000Z"
+        url="https://fast-mock-data-generator.vercel.app/blog/understanding-data-types"
+        keywords={["data types", "programming", "string", "number", "date", "boolean", "arrays"]}
+      />
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <article className="max-w-4xl mx-auto px-4 py-12">
         <header className="mb-8">
           <Link href="/blog" className="text-blue-600 dark:text-blue-400 hover:underline mb-4 inline-block">
@@ -128,6 +138,7 @@ export default function BlogPost() {
         </div>
       </article>
     </div>
+    </>
   );
 }
 
